@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch SpringbootMongodbSecurityApplication",
+      "request": "launch",
+      "mainClass": "com.djamware.springbootmongodbsecurity.SpringbootMongodbSecurityApplication",
+      "projectName": "springboot-mongodb-security"
+    },
+    {
+      "type": "java",
+      "name": "Debug",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 8080
+    }
+  ]
+}
